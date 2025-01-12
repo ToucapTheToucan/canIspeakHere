@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: "consolas";
+}
+
+svg {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Default style for countries */
+.country  {
+    fill: lightgray;
+    stroke: black;
+    stroke-width: 0.3;
+    transition: fill 0.3s ease;
+}
+
+/* Highlight on hover */
+.country:hover {
+    fill: blue;
+}
+
+.highlight p {
+    color: yellow;
+}
+
+.highlight:hover {
+    background-color: blue;
+}
